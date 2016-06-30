@@ -1,0 +1,22 @@
+{
+  "name": "tregress",
+  "version": "1.0.0",
+  "description": "Regression algorithms in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "tdd": "tsc -w & ava -w",
+    "test": "tsc && ava"
+  },
+  "author": "Boris Cherny <boris@performancejs.com> (http://performancejs.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "typings": "^1.3.1"
+  }
+}
