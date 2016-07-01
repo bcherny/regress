@@ -1,10 +1,10 @@
 {
   "name": "tregress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regression algorithms in TypeScript",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -d -m es2015 --outDir .; mv ./index.js ./index.es6.js; tsc -t es5 -m commonjs --outDir .;",
     "watch": "tsc -w",
     "tdd": "tsc -w & ava -w",
     "test": "tsc && ava"
