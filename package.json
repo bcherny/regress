@@ -1,7 +1,7 @@
 {
-  "name": "tregress",
-  "version": "1.0.1",
-  "description": "Regression algorithms in TypeScript",
+  "name": "regress",
+  "version": "1.0.2",
+  "description": "Statistical regression algorithms in TypeScript",
   "main": "index.js",
   "scripts": {
     "build": "tsc -d -m es2015 --outDir .; mv ./index.js ./index.es6.js; tsc -t es5 -m commonjs --outDir .;",
